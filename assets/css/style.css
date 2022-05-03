@@ -1,0 +1,128 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Helvetica;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #128c7e;
+  top: 0;
+  z-index: 2;
+  position: fixed;
+  width: 100%;
+  box-shadow: 0px 0px 12px #555;
+}
+
+.menu-icon {
+  margin: 11px 17px;
+}
+
+.menu-icon span {
+  display: block;
+  width: 30px;
+  height: 3px;
+  background-color: white;
+  margin: 6px 0;
+}
+
+section {
+  width: 100%;
+  background-color: #128c7e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section .img-logo {
+  width: 80px;
+  margin-top: 80px;
+}
+
+section p {
+  color: white;
+}
+
+.slogan {
+  font-size: 24px;
+  text-align: center;
+  width: 240px;
+  margin-bottom: 0px;
+}
+
+.description {
+  font-size: 17px;
+  text-align: center;
+  width: 283px;
+}
+
+.telechargement-btn {
+  font-size: 17px;
+  margin-bottom: 40px;
+  color: white;
+  padding: 16px 32px;
+  background-color: #075e54;
+  border: none;
+  border-radius: 25px;
+}
+
+.img-illustration {
+  width: 80%;
+  max-width: 290px;
+}
+
+footer {
+  background-color: #273443;
+}
+
+footer,
+a {
+  color: white;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+/* footer .liens {
+  background-color: #273443;
+} */
+
+/* .liens div {
+  display: flex;
+  flex-direction: column;
+} */
+
+.whatsappAntreprise {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.whatsappAntreprise div {
+  display: flex;
+  flex-direction: column;
+  width: 130px;
+}
+
+.telechargerAide {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.telechargerAide div {
+  display: flex;
+  flex-direction: column;
+  width: 130px;
+}
+
+.copyrignt {
+  background-color: #1c1e21;
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+}
+
+.copyrignt a {
+  color: white;
+  text-decoration: none;
+}
