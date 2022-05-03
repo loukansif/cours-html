@@ -27,7 +27,7 @@ body {
   margin: 6px 0;
 }
 
-section {
+.intro {
   width: 100%;
   background-color: #128c7e;
   display: flex;
@@ -35,12 +35,12 @@ section {
   align-items: center;
 }
 
-section .img-logo {
+.intro .img-logo {
   width: 80px;
   margin-top: 80px;
 }
 
-section p {
+.intro p {
   color: white;
 }
 
@@ -72,6 +72,29 @@ section p {
   width: 80%;
   max-width: 290px;
 }
+
+.business {
+  padding-top: 70px;
+  font-size: inherit;
+  background-color: #D8E8EA;
+}
+
+.business a {
+  color: #39b3ed;
+
+}
+
+.container {
+  width: 80%;
+  text-align: center;
+  margin-left: 10%;
+  line-height: 1.6em;
+}
+
+.container img {
+  width: 100%;
+}
+
 
 footer {
   background-color: #273443;
